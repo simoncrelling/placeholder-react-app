@@ -1,13 +1,6 @@
-import * as React from 'react';
+import { IPost } from './IPost';
 
-export interface IPostProps {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-}
-
-export const PostListItem = (props: IPostProps) => {
+export const PostListItem = (props: IPost) => {
   const { id, title, body } = props;
   return (
     <div>
