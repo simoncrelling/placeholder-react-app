@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { PostList } from './posts/components/PostList';
 
 function App() {
